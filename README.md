@@ -1,39 +1,71 @@
 # GameVault - Game Backlog Tracker
 
+## Authorship + Version
+
+author: Parker Bell | project: dev|bravo | version: 0.2 | date: 2026-09-21
+
+## User Story
+As a gamer
+I want to organize and search my video game backlog
+So that I can keep track of which games I want to play, am currently playing, and have completed.
+
+
 ## Project Description
 
 GameVault is a simple web application that helps users keep track of video games they want to play, are currently playing, or have completed.
 
-The application allows users to search for games, filter games by status, add new games, and clear their backlog.
+The app organizes game information and allows users to search, filter, and add games to their backlog.
 
-## Technologies Used
+## Problem
 
-- HTML
-- CSS
-- JavaScript
-- Bootstrap
+Gamers may have many games they want to play and can lose track of which games they own, are playing, or have completed.
 
-## Main Features
+GameVault provides one place to organize this information.
+
+## Data → Processing → Information
+
+### Data
+
+GameVault uses game information such as:
+
+- Game name
+- Platform
+- Genre
+- Status
+- Rating
+- Tags
+
+### Processing
+
+JavaScript processes the game information by allowing the user to:
 
 - Search for games
 - Filter games by status
-- Add new games
-- Display the number of games in the backlog
-- Clear the game backlog
-- Bootstrap success notifications
+- Add a game
+- Count games in the backlog
+- Clear the backlog
+
+### Information
+
+The processed information helps users understand and manage the current state of their game backlog.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- jQuery
+- Bootstrap 5
+- Bootstrap Icons
+- Normalize.css
+- Google Fonts
+- Git
+- GitHub
+- GitHub Pages
+
+## Main Pages
+
+- Home page
 - Sign In page
 - Admin page
 
-## Project Structure
-
-dev-bravo/
-├── index.html
-├── pages/
-│ ├── signin.html
-│ └── admin.html
-├── css/
-│ └── styles.css
-├── js/
-│ └── app.js
-├── img/
-└── README.md
