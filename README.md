@@ -1,5 +1,15 @@
 # GameVault - Game Backlog Tracker
 
+## Authorship + Version
+
+author: Parker Bell | project: dev|bravo | version: 0.2 | date: 2026-09-21
+
+## User Story
+As a gamer
+I want to organize and search my video game backlog
+So that I can keep track of which games I want to play, am currently playing, and have completed.
+
+
 ## Project Description
 
 GameVault is a simple web application that helps users keep track of video games they want to play, are currently playing, or have completed.
